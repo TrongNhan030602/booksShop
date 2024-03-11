@@ -1,0 +1,13 @@
+{
+    "name": "trong/nlcs_03",
+    "autoload": {
+        "psr-4": {
+            "APP\\": "./src/classes/"
+        }
+    },
+    "authors": [{
+        "name": "TrongNhan030602",
+        "email": "ntnhan030602@gmail.com"
+    }],
+    "require": {}
+}

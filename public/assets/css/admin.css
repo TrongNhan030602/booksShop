@@ -1,0 +1,438 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #f8f9fa, #edeff1);
+}
+
+#sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #343a40;
+    padding-top: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-item {
+    transition: background 0.3s ease;
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.sidebar-item:hover {
+    background-color: #495057;
+}
+
+.sidebar-item,
+.sidebar-item i {
+    color: #fff;
+}
+
+.sidebar-item i {
+    margin-right: 10px;
+}
+
+.modal-content,
+.btn {
+    border-radius: 15px;
+}
+
+.logout_btn {
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.logout_btn:hover {
+    opacity: 0.8;
+    text-decoration: none;
+    color: #dee2e6;
+}
+
+#content {
+    margin-left: 250px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.navbar {
+    background-color: rgb(30, 136, 228);
+    color: #fff;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ccc;
+}
+
+.form-search {
+    margin-bottom: 20px;
+}
+
+.form-search input {
+    border-radius: 20px;
+}
+
+.form-search button {
+    border-radius: 20px;
+}
+
+#sidebar-title {
+    color: #fff;
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.user-avatar {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.product-list {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: rgb(30, 136, 228);
+    color: #fff;
+}
+
+.edit-button,
+.delete-button {
+    margin-right: 5px;
+}
+
+.sidebar-item {
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.user-section {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.user-menu {
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+.product-list {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.edit-button,
+.delete-button {
+    margin-right: 8px;
+}
+
+#product-management-content,
+#user-management-content {
+    max-width: 100%;
+}
+
+#product-management-content,
+#user-management-content {
+    padding: 20px;
+}
+
+.user-list {
+    margin-top: 30px;
+}
+
+.product-list table,
+.user-list table {
+    margin-bottom: 20px;
+    overflow-x: auto;
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 100px;
+}
+
+.edit-button,
+.delete-button {
+    margin-right: 8px;
+}
+
+
+/* Responsive styles cho bảng sản phẩm */
+
+.product-list table {
+    overflow-x: auto;
+}
+
+
+/* Thiết lập độ rộng tối thiểu của cột để tránh việc xuống dòng quá sớm */
+
+
+/**/
+
+.btn {
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.btn-primary {
+    background: linear-gradient(45deg, #007bff, #0035d4);
+    border: none;
+}
+
+.btn,
+.sidebar-item {
+    border-radius: 20px;
+}
+
+
+/* CSS cho ảnh sản phẩm */
+
+.product-list img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.product-list img:hover {
+    transform: scale(1.05);
+}
+
+
+/* CSS cho  ảnh sản phẩm */
+
+.modal-body img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#addProductModal img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#editProductModal img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* CSS cho bảng sản phẩm và thành viên */
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+
+.table th,
+.table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.table tbody+tbody {
+    border-top: 2px solid #dee2e6;
+}
+
+
+/* Định dạng màu cho hàng chẵn và lẻ */
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+
+/* Hiệu ứng hover cho hàng trong bảng */
+
+.table tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.075);
+}
+
+
+/* Hóa đơn */
+
+
+/* CSS cho bảng hóa đơn */
+
+#invoice-management-content {
+    max-width: 100%;
+    padding: 20px;
+}
+
+.invoice-list {
+    margin-top: 30px;
+}
+
+.invoice-list table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+}
+
+.invoice-list table th,
+.invoice-list table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.invoice-list table th {
+    background-color: rgb(30, 136, 228);
+    color: #fff;
+}
+
+.invoice-list .action-buttons {
+    text-align: center;
+    padding: 8px;
+}
+
+.invoice-list table tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.075);
+}
+
+@media only screen and (max-width: 768px) {
+    /* Ẩn các cột không quan trọng ở chế độ responsive */
+    .invoice-list table th:nth-child(2),
+    .invoice-list table td:nth-child(2),
+    .invoice-list table th:nth-child(4),
+    .invoice-list table td:nth-child(4),
+    .invoice-list table th:nth-child(5),
+    .invoice-list table td:nth-child(5) {
+        display: none;
+    }
+    /* Thêm padding và điều chỉnh chiều rộng cột để hiển thị thông tin đầy đủ */
+    .invoice-list table th,
+    .invoice-list table td {
+        padding: 8px;
+        min-width: 80px;
+    }
+    /* Đảm bảo dòng chỉ chứa một hóa đơn và các cột nằm dọc */
+    .invoice-list table tbody tr {
+        display: block;
+        border: 1px solid #ddd;
+        margin-bottom: 10px;
+    }
+    .invoice-list table tbody td {
+        display: block;
+        text-align: left;
+    }
+    .action-buttons {
+        display: none;
+        margin-top: 10px;
+    }
+    #content {
+        padding: 20px 10px;
+        margin-left: 0;
+    }
+    .sidebar-item:hover {
+        background-color: transparent;
+    }
+    .modal-dialog {
+        max-width: 90%;
+        margin: 1.75rem auto;
+    }
+    .modal-body {
+        overflow-x: auto;
+    }
+    .modal-body table {
+        width: 100%;
+        overflow-x: auto;
+    }
+    .modal-body table th,
+    .modal-body table td {
+        white-space: nowrap;
+    }
+    #sidebar {
+        width: 100%;
+        position: relative;
+    }
+    /* Thêm padding và điều chỉnh chiều rộng cột để hiển thị thông tin đầy đủ */
+    .product-list table th,
+    .product-list table td {
+        padding: 8px;
+        min-width: 80px;
+    }
+    /* Đảm bảo dòng chỉ chứa một sản phẩm và các cột nằm dọc */
+    .product-list table tbody tr {
+        display: block;
+        border: 1px solid #ddd;
+        margin-bottom: 10px;
+    }
+    .product-list table tbody td {
+        display: block;
+        text-align: left;
+    }
+}

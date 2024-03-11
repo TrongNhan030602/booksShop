@@ -1,0 +1,244 @@
+.cart__session {
+    position: relative;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    z-index: 0;
+}
+
+
+/* cart header */
+
+.cart__header {
+    background-color: #cecbcb;
+    padding: 1rem 0 3rem;
+}
+
+.cart__heading {
+    font-size: 4rem;
+    color: #333333;
+    font-weight: 600;
+    letter-spacing: 0.1px;
+    line-height: 1;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.cart__navbar {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    padding-left: 0;
+    list-style: none;
+}
+
+.cart__navbar-item {
+    color: #333333;
+    font-size: 1.8rem;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1;
+    margin-top: 0;
+}
+
+.cart__navbar-item-link {
+    color: rgb(30, 17, 219);
+    text-decoration: none;
+    opacity: 0.8;
+    font-weight: bolder;
+}
+
+.cart__navbar-item-link:hover {
+    color: rgb(241, 129, 0);
+}
+
+.cart__navbar-item:first-child::after {
+    content: "-";
+    margin: 0 6px;
+}
+
+
+/* cart content */
+
+.cart__content {
+    padding: 2rem;
+}
+
+.cart__content-table {
+    margin-bottom: 2rem;
+}
+
+.cart__table {
+    width: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+}
+
+.cart__table-thead {
+    background-color: #0f616c;
+}
+
+.cart__table-thead-hr {
+    display: none;
+}
+
+.cart__table thead tr th {
+    text-align: center;
+    border: none;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #fff;
+    padding: 1.2rem 2rem;
+}
+
+th.cart__table-thumbnail,
+td.cart__table-thumbnail {
+    max-width: 12rem;
+    min-width: 10rem;
+    width: 12rem;
+}
+
+th.cart__table-title,
+td.cart__table-title {
+    min-width: 20rem
+}
+
+.cart__table td,
+.cart__table th {
+    padding: 0.75rem;
+    border-top: 1px solid #dee2e6;
+}
+
+td.cart__table-thumbnail a img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 0.2rem;
+}
+
+.cart__table tbody tr td {
+    text-align: center;
+    border: none;
+    padding: 2.5rem 2rem;
+    vertical-align: middle;
+    border-bottom: 1px solid #dddddd;
+}
+
+th.cart__table-title,
+td.cart__table-title {
+    min-width: 20rem;
+}
+
+td.cart__table-title a {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #333333;
+    text-decoration: none;
+}
+
+td.cart__table-title a:hover {
+    color: #0f616c;
+}
+
+td.cart__table-price span {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #333333;
+}
+
+.cart__table-qty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+td.cart__table-quantity .cart__table-qty input {
+    height: 42px;
+    width: 50px;
+    text-align: center;
+    border-width: 1px 1px;
+    font-size: 1.4rem;
+    border-style: solid;
+    border-color: #ececec;
+    color: #333333;
+}
+
+.cart__table-qty .qtybtn {
+    height: 42px;
+    padding: 0 10px;
+    border: 0.8px solid #ececec;
+    font-size: 1.6rem;
+    background-color: transparent;
+    color: #909090;
+}
+
+.cart__table-qty .qtybtn:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: #ececec;
+    color: #4f4f4f;
+}
+
+td.cart__table-subtotal span {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #333333;
+}
+
+.cart__table-remove-btn {
+    border: none;
+    background: initial;
+    font-size: 1.4rem;
+}
+
+.cart__table-remove-btn:hover {
+    cursor: pointer;
+    color: #ff0000;
+}
+
+
+/*  cart footer*/
+
+.cart__footer-title {
+    text-align: right;
+}
+
+.cart__footer-title h4,
+.cart__footer-sum-value h4 {
+    font-size: 1.8rem;
+    color: #333333;
+    font-weight: 500;
+    margin-top: 0;
+    line-height: 1.2;
+}
+
+
+/*  */
+
+.cart__checkout-btn {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    font-size: 1.6rem;
+    line-height: 1.2rem;
+    height: 45px;
+    font-weight: 600;
+    padding: 1.4rem 2.6rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 0.3rem;
+    position: relative;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    max-width: 16rem;
+    border: none;
+}
+
+.cart__checkout-btn:hover {
+    background-color: #0f616c;
+}
+
+
+/*reponsive */
