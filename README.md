@@ -10,5 +10,5 @@ Chức năng:
 
 Công nghệ sử dụng:
   1. FrontEnd (HTML,CSS , JavaScript)
-  2. BackEnd (PHP ).
+  2. BackEnd (PHP, MySQL).
     
