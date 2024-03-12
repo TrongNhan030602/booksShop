@@ -1,5 +1,7 @@
 Đây là dự án được hoàn thành trong quá trình học tập tại trường (CTU).
+
 Tên dự án: Website bán sách.
+
 Chức năng:
   1. CRUD books, user.
   2. Hiển thị, Sắp xếp theo nhiều tùy chọn (Price, New, Hot).
