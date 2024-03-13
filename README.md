@@ -9,6 +9,6 @@ Chức năng:
   4. Website cũng hỗ trợ Responsive ( mobile, tablet, PC).
 
 Công nghệ sử dụng:
-  1. FrontEnd (HTML, CSS , JavaScript)
+  1. FrontEnd (HTML, CSS , JavaScript).
   2. BackEnd (PHP, MySQL).
     
